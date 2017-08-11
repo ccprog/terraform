@@ -46,6 +46,17 @@ describe("templates", function(){
       })
     })
 
+    it("should render markdown file with partial shortcode", function(done){
+      poly.render("shortcode.md", function(error, body){
+        should.not.exist(error)
+        should.exist(body)
+        body.should.include("<h1>Hello World</h1>")
+        body.should.include("<h2>Hello Brazil</h2>")
+        body.should.include("<h2>Hello Gastown</h2>")
+        done()
+      })
+    })
+
     it("should render markdown file encoded in UTF-8 with BOM", function(done){
       poly.render("bom.md", function(error, body){
         should.not.exist(error)

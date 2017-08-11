@@ -35,7 +35,8 @@
     "Stephen Way",
     "Pierre Spring <pierre@nelm.io>",
     "John Boxall <john@mobify.com>",
-    "TJ Nicolaides <tjnicolaides@gmail.com>"
+    "TJ Nicolaides <tjnicolaides@gmail.com>",
+    "Claus Colloseus <ccprog@gmx.de>"
   ],
   "license": "MIT",
   "dependencies": {
