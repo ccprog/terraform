@@ -1,5 +1,7 @@
 # Hello World
 
-@[partial]( "../render/partials/_places/brazil.jade" )
+<partial src="../render/partials/_places/brazil.jade" >
 
-@[partial]("../render/partials/_places/any.jade"; { "place": "Gastown", "time": 0 })
+<partial src="../render/partials/_places/mexico.jade" quality="beautifull" num=1 />
+
+<partial src="../render/partials/_places/japan.md" quality="mysterious" continent="Asia" />

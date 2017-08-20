@@ -40,7 +40,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "6.2.3",
+    "autoprefixer": "^7.1.2",
     "coffee-script": "1.10.0",
     "ejs": "2.3.4",
     "harp-minify": "0.4.0",
